@@ -36,20 +36,20 @@ ursa
 "
 # Device check
 for ITEM in $DEVICES; do
-  if [ $(getprop ro.product.name) == $ITEM ] ; then
+  if [ $(getprop ro.product.device) == $ITEM ] ; then
     DEVFND=1
     break
   fi
 done
 # Abort if no match
 if [ $DEVFND == 0 ]; then
-  abort "Unsupported device ($(getprop ro.product.name)) or modified buld.prop"
+  abort "Unsupported device ($(getprop ro.product.device)) or modified buld.prop"
 fi
 }
 
 #Checking API version. Thx @Didgeridoohan for this function.
 sdkver_fn() {
-if ! [ $API -ge 28 ] && [ $API -le 28 ]; then
+if ! [ $API -ge 26 ] && [ $API -le 28 ]; then
   abort "Unsupported Android version (API $API) or modified build.prop"
 fi
 }
