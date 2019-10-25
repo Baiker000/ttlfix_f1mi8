@@ -188,7 +188,7 @@ fi
 
 #Checking API version. Thx @Didgeridoohan for this function.
 sdkver_fn() {
-if ! [ $API -ge 26 ] && [ $API -le 28 ]; then
+if ! [ $API -ge 26 ] && [ $API -le 29 ]; then
   abort "Unsupported Android version (API $API) or modified build.prop"
 fi
 }
