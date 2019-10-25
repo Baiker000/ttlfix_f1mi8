@@ -1,7 +1,7 @@
 id=ttlfix_f1mi8
 name=F1/MiMix3/MiMix2S/Mi8 TTL Fix module
-version=v1.4
-versionCode=4
+version=v1.5
+versionCode=5
 author=LazyMind @ 4pda.ru
 description=Adds support for TTL Target module on stock MIUI kernels of All SD845 Xiaomi Mi8 variants, Pocophone F1, MIX2S, MIX3 and set (fix) TTL to 64. 
 minMagisk=17000
