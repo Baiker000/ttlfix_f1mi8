@@ -22,6 +22,7 @@ This module adds a kernel module TTL Target for changing packets TTL and sets TT
  - [@Didgeridoohan](https://forum.xda-developers.com/member.php?u=4667597) for help with magisk module structure and some scripts.
 
 ## Changelog:
+ - version 1.5 - added: Android 10 based MIUI rom support
  - version 1.4 - update to new magisk module format
  - version 1.3 - added: Android 8 based MIUI rom support
  - version 1.2 - fixed: module can't be installed on Global RU MIUI roms
