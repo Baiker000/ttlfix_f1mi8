@@ -6,7 +6,7 @@ This module adds a kernel module TTL Target for changing packets TTL and sets TT
 
 ## Requirements:
  - Pocophone F1, Xiaomi MiMix3, Xiaomi MiMix2S, Xiaomi Mi8 (all SD845 variants)
- - Android 8/9 based MIUI OS with Stock MIUI Kernel (No custom rom or custom kernel support, won't work on any custom rom)
+ - Android 8/9/10 based MIUI OS with Stock MIUI Kernel (No custom rom or custom kernel support, won't work on any custom rom)
  - Magisk 17+
  - root
  
